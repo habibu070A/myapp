@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KtPay</title>
+  <link rel="stylesheet" href="style.css"/>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      
+    </header>
+    
+    
+    <div class="container-balance">
+      <div class="balance-display">
+      <span>My Balance</span>
+      <span>$ <span id="balance">0</span></span>
+      </div>
+      
+      <buttom class="deposit">Deposit</buttom>
+    </div>
+  
+  
+  
+  <article class="coin-container">
+    <div id="listCoins"></div>
+  </article>
+  
+  
+  
+  <footer>
+   <button>
+   <i class="fa-solid fa-house"></i>
+   <span>Home</span>
+   </button>
+    
+   <button>
+   <i class="fa-solid fa-chart-line"></i>
+   <span>Market</span>
+   </button>
+    
+  <button>
+   <i class="fa-solid fa-wallet"></i>
+   <span>Assest</span>
+   </button>
+  </footer>
+  </div>
+  <script type="module" src="getCoins.js"></script>
+  
+  <script type="module" src="getPrice.js"></script>
+</body>
+</html>
