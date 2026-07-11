@@ -10,7 +10,7 @@ export let coins = [
   
   {id: "solana", logo: "../photos/sol.png", name: "solana", symbol: "Sol", network: "solana", contract: null, balance: 0, price: 0, change: 0},
   
-  {id: "ethereum", logo: "../photos/eth.png", name: "Ethereum", symbol: "ETH", contract: null, balance: 0, price: 0, change: 0},
+  {id: "ethereum", logo: "./eth.png", name: "Ethereum", symbol: "ETH", contract: null, balance: 0, price: 0, change: 0},
   
   {id: "binancecoin", logo: "../photos/bnb.png", name: "Bnb Smart Chain", symbol: "BNB", contract: null, balance: 0, price: 0, change: 0}
 ]
