@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KtPay</title>
+  <link rel="stylesheet" href="style.css"/>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div class="img56">
+      <img src="../photos/ktpay.png" alt="img" class="userImage"/>
+    
+      <span>@HI user123764</span>
+      </div>
+    </header>
+    
+    
+    <div class="container-balance">
+      <div class="balance-display">
+      <span>My Balance</span>
+      <span>$ <span id="balance">0</span></span>
+      </div>
+      
+      <buttom class="deposit">Deposit</buttom>
+    </div>
+  
+  
+  
+  <article class="coin-container">
+    <nav>
+      <span>Coins</span>
+      <div>
+      <span>Prices &</span>
+      <span>24h Change</span>
+      </div>
+    </nav>
+    <div id="listCoins"></div>
+  </article>
+  
+  
+  
+  <footer>
+   <button>
+   <i class="fa-solid fa-house"></i>
+   <span>Home</span>
+   </button>
+    
+   <button>
+   <i class="fa-solid fa-chart-line"></i>
+   <span>Market</span>
+   </button>
+    
+  <button>
+   <i class="fa-solid fa-wallet"></i>
+   <span>Asset</span>
+   </button>
+  </footer>
+  </div>
+  <script type="module" src="getCoins.js"></script>
+  
+  <script src="buy.js"></script>
+</body>
+</html>

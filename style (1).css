@@ -1,0 +1,180 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+
+html, body{
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  background: whitesmoke;
+}
+
+.app{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+header{
+  height: 10vh;
+  width: 100%;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.userImage{
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 3px gold;
+}
+
+.img56{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: auto;
+  gap: 10px;
+}
+
+
+
+
+
+
+.container-balance{
+  height: 10vh;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.balance-display{
+  display: flex;
+  flex-direction: column;
+}
+.balance-display span{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.deposit{
+  margin-left: auto;
+  font-size: 16px;
+  font-weight: bold;
+  background: royalblue;
+  height: 6vh;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+
+
+
+.coin-container{
+  height: 60vh;
+  width: 100%;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.coin-container nav{
+  display: flex;
+}
+
+nav div{
+  margin-left: auto;
+  right: 10px;
+}
+nav span{
+  font-size: 10px;
+}
+
+.coin{
+  margin-bottom: 10px;
+  border-radius: 10px;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding: 10px;
+}
+
+.coinImage{
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 3px #000;
+}
+
+.coinName{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.coinName span{
+  font-weight: bold;
+}
+.coinName h2{
+  font-size: 10px;
+}
+
+
+.coinPrice{
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+footer{
+  height: 10vh;
+  width: 100%;
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+footer button{
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  gap: 5px;
+}
+
+footer button, i{
+  font-size: 16px;
+}
+
+button span{
+  font-size: 12px;
+  font-weight: bold;
+}
