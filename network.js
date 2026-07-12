@@ -6,7 +6,7 @@ export let coins = [
   
   {id: "bitcoin", logo: "./btc.png", name: "Bitcoin BTC", symbol: "BTC", network: "BSC", contract: null, balance: 0, price: 0, change: 0},
   
-  {id: "ton", logo: "./ton.png", name: "Ton Network", symbol: "Ton", network: "ton", cobtract: null, balance: 0, price: 0, change: 0},
+  {id: "the-open-network", logo: "./ton.png", name: "Ton Network", symbol: "Ton", network: "ton", cobtract: null, balance: 0, price: 0, change: 0},
   
   {id: "solana", logo: "./sol.png", name: "solana", symbol: "Sol", network: "solana", contract: null, balance: 0, price: 0, change: 0},
   
